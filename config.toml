@@ -2,3 +2,15 @@ baseURL = "http://example.org/"
 languageCode = "en-us"
 title = "My New Hugo Site"
 theme = "hugo-theme-techdoc"
+
+[Params]
+
+    menu_style = "open-menu" # "open-menu" or "slide-menu"
+    menu_exclusion = [
+        "archives",
+        "archive",
+        "blog",
+        "entry",
+        "post",
+        "posts"
+    ]
