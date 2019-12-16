@@ -3,7 +3,7 @@ baseURL = "https://example.com"
 languageCode = "en-us"
 DefaultContentLanguage = "en"
 title = "Customer Success Onboarding"
-theme = "hugo-theme-techdoc"
+theme = "tech-doc"
 
 hasCJKLanguage = true
 metaDataFormat = "yaml"
@@ -57,6 +57,11 @@ enableMissingTranslationPlaceholders = false
         "blog",
         "entry",
         "post",
+	"sample",
+	"chapter1",
+	"chapter2",
+	"chapter3",
+	"getting-started",
         "posts"
     ]
 
