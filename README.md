@@ -5,7 +5,7 @@
 1. How to install Hugo:
 https://gohugo.io/getting-started/installing/#install-hugo-with-brew
 
-2. ```Git clone``` this repo
+2. ```git clone https://github.com/cloudbees/cs-onboarding.git  --recurse-submodules```
 
 3. Go inside directory and execute ```hugo -D server```
 
