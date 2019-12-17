@@ -21,7 +21,7 @@ https://gohugo.io/getting-started/quick-start/
 
 ## How to add more content
 
-1.Take a look at cs-onboarding/content/support as an example and explore to see how to add files. Main configuration file for the page is in cs-onboarding/config.toml
+1.  Take a look at cs-onboarding/content/support as an example and explore to see how to add files.The articles (.md files) follow the directory structure. The main configuration file for the page is in cs-onboarding/config.toml
 
 2. Create a new branch.
 
