@@ -27,7 +27,7 @@ https://gohugo.io/getting-started/quick-start/
 
 3. Open a PR when done.
 
-(more CI/CD stuff to come)
+-----(more CI/CD stuff to come)
 
 
 
