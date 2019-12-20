@@ -9,3 +9,4 @@ menu:
 
 Whether you are getting started with CloudBees and/or Jenkins, building DevOps mastery or moving from old to new, our professional services team is here to help.  To learn more about CloudBees services, please visit https://www.cloudbees.com/services. 
 
+![](/img/support/ImplementationMethodology.png "Implementation Methodology")
