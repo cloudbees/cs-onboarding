@@ -2,12 +2,25 @@
 
 ## Getting started with Hugo:
 
-1. How to install Hugo:
+1. ```git clone https://github.com/cloudbees/cs-onboarding.git  --recurse-submodules```
+
+
+2. How to install Hugo to test locally - This is using hugo version 0.61.0:
 https://gohugo.io/getting-started/installing/#install-hugo-with-brew
 
-2. ```git clone https://github.com/cloudbees/cs-onboarding.git  --recurse-submodules```
+Want to use Docker locally 🐳 instead?
+
+``` 
+docker run --rm -it \
+ -v $(pwd):/src \
+  -p 1313:1313 \
+  klakegg/hugo:0.61.0 \
+  server 
+```
+
 
 3. Go inside directory and execute ```hugo -D server```
+
 
 ## Information about Hugo
 
@@ -28,16 +41,6 @@ https://gohugo.io/getting-started/quick-start/
 3. Open a PR when done.
 
 -----(more CI/CD stuff to come)
-
-Want to run locally?
-
-``` 
-docker run --rm -it \
- -v $(pwd):/src \
-  -p 1313:1313 \
-  klakegg/hugo:0.61.0 \
-  server 
-```
 
 
 
