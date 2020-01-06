@@ -1,6 +1,6 @@
 ## Getting started:
 
-### a) Hugo using Homebrew:
+### a) Hugo using [Homebrew](https://brew.sh/):
 
 1. Install Hugo 0.61.0 to test locally:
 
