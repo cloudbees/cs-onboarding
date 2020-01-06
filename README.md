@@ -59,7 +59,7 @@ Take a look at ```cs-onboarding/content/support``` or ```cs-onboarding/content/c
 2. Create a branch with a name of your preference.
 
 3. Once you are in your new branch, create a new folder under ``content`` for your new section and a or multiple new .md file(s) under such folder. You can also just add a new .md file under an existing folder if you don't want to create a new section. Finally you can also try using ```hugo new```.
-Once you have added your files and/or new folders, make sure there are no issues in your local environment by executing hugo either using Docker or your own command line and try to see your newly added page(s).
+Once you have added your files and/or new folders, make sure there are no issues in your local environment.
 
 4. Open a PR when done against the master branch.
 
