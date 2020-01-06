@@ -29,6 +29,14 @@ https://gohugo.io/getting-started/quick-start/
 
 -----(more CI/CD stuff to come)
 
+Want to run locally?
+
+``` docker run --rm -it \
+ -v $(pwd):/src \
+  -p 1313:1313 \
+  klakegg/hugo:0.61.0 \
+  server ```
+
 
 
 
