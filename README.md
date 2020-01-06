@@ -16,7 +16,9 @@ Once you install Hugo in your machine and cloned the repo, go inside the csa-onb
 
 ### Want to use Hugo with Docker 🐳 instead?
 
-Clone the repo and run the following command inside the csa-onboarding directory:
+First, get docker https://docs.docker.com/docker-for-mac/install/
+
+Clone the repo and run the following command inside the ```csa-onboarding``` directory:
 
 ``` 
 docker run --rm -it \
@@ -49,7 +51,7 @@ Take a look at cs-onboarding/content/support or cs-onboarding/content/cloudbees-
 
 3. Open a PR when done.
 
------(more CI/CD stuff to come so you can see that it not only works in your machine)
+*** (more CI/CD stuff to come so you can see that it not only works in your machine) ***
 
 
 
