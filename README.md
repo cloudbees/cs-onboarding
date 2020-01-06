@@ -51,7 +51,7 @@ docker run --rm -it \
 * Other themes in case you want to change it and try a new one:
 https://themes.gohugo.io/
 
-* [How to add a new theme](https://gohugo.io/getting-started/quick-start/)
+* [How to add a theme](https://gohugo.io/getting-started/quick-start/#step-3-add-a-theme)
 
 ## How to add more content
 
