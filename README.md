@@ -2,7 +2,7 @@
 
 ## Getting started:
 
-First clone the repo:
+First clone this repo:
 
 ```git clone https://github.com/cloudbees/cs-onboarding.git  --recurse-submodules```
 
@@ -11,14 +11,14 @@ First clone the repo:
 How to install Hugo to test locally - This is using hugo version 0.61.0:
 https://gohugo.io/getting-started/installing/#install-hugo-with-brew
 
-Once you install Hugo in your machine and cloned the repo, go inside the csa-onboarding directory and execute ```hugo -D server```. Go to ---> localhost:1313 and you should see the website.
+Once you install Hugo in your machine and cloned this repo, go inside the ```csa-onboarding``` directory and execute ```hugo -D server```. Go to localhost:1313 in your favorite browser and you should see the website.
 
 
 ### Want to use Hugo with Docker 🐳 instead?
 
 First, get docker https://docs.docker.com/docker-for-mac/install/
 
-Clone the repo and run the following command inside the ```csa-onboarding``` directory:
+Clone this repo and run the following command inside the ```csa-onboarding``` directory:
 
 ``` 
 docker run --rm -it \
@@ -27,7 +27,7 @@ docker run --rm -it \
   klakegg/hugo:0.61.0 \
   server 
 ```
-Go to --> localhost:1313 in your favorite browser and you should see the website.
+Go to localhost:1313 in your favorite browser and you should see the website.
 
 
 ## Want to know more about Hugo and its themes?
@@ -45,7 +45,7 @@ https://gohugo.io/getting-started/quick-start/
 ## How to add more content
 
 1. Follow the "Getting Started" directions to see how these pages get created in your local environment.  
-Take a look at cs-onboarding/content/support or cs-onboarding/content/cloudbees-core as an example and explore to see how to add files. The articles (.md files) follow the directory structure. The main configuration file for the page is in cs-onboarding/config.toml. 
+Take a look at cs-onboarding/content/support or cs-onboarding/content/cloudbees-core as an example and explore to see how to add files. The articles (.md files) follow the directory structure in the website. The main configuration file for the page is in ```cs-onboarding/config.toml ```
 
 2. Once you have added your files, create a new branch.
 
