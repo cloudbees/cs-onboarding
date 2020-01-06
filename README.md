@@ -31,7 +31,8 @@ https://gohugo.io/getting-started/quick-start/
 
 Want to run locally?
 
-``` docker run --rm -it \
+``` 
+docker run --rm -it \
  -v $(pwd):/src \
   -p 1313:1313 \
   klakegg/hugo:0.61.0 \
