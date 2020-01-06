@@ -3,22 +3,22 @@
 
 ### Hugo using Homebrew:
 
-1.Install Hugo 0.61.0 to test locally:
+1. Install Hugo 0.61.0 to test locally:
 
 ```brew install https://raw.githubusercontent.com/Homebrew/homebrew-core/79894aee20a146d6cf7db7b4a362e7d491f499a1/Formula/hugo.rb```
 
-Here are the official (docs)[https://gohugo.io/getting-started/installing/#install-hugo-with-brew] but unfortunately Homebrew only keeps the latest version of Hugo which can bring incompatibility issues (this is when you run ```brew install hugo```):
+Here are the official [docs](https://gohugo.io/getting-started/installing/#install-hugo-with-brew) but unfortunately Homebrew only keeps the latest version of Hugo which can bring incompatibility issues (this is when you run ```brew install hugo```):
 
 
-2.Make sure you have version 0.61.0 installed by running ```hugo version```.
+2. Make sure you have version 0.61.0 installed by running ```hugo version```.
 
-3.Clone this repo:
+3. Clone this repo:
 
 ```git clone https://github.com/cloudbees/cs-onboarding.git  --recurse-submodules```
 
 4.Once you cloned this repo and installed Hugo in your machine. Go inside the ```csa-onboarding``` directory and execute ```hugo -D server```. 
 
-5.Go to (localhost:1313)[localhost:1313] in your favorite browser and you should see the website.
+5.Go to [localhost:1313](localhost:1313) in your favorite browser and you should see the website.
 
 
 ### Want to use Hugo with Docker 🐳 instead?
@@ -40,19 +40,19 @@ docker run --rm -it \
   server 
 ```
 
-4.Go to (localhost:1313)[localhost:1313] in your favorite browser and you should see the website.
+4.Go to [localhost:1313](localhost:1313) in your favorite browser and you should see the website.
 
 
 ## Want to know more about Hugo and its themes?
 
-(Hugo Docs)[https://gohugo.io/documentation/]
+[Hugo Docs](https://gohugo.io/documentation/)
 
-We are already using (TechDoc)[https://themes.gohugo.io/hugo-theme-techdoc/]
+We are already using [TechDoc](https://themes.gohugo.io/hugo-theme-techdoc/)
 
 Other themes in case you want to change it and try a new one:
 https://themes.gohugo.io/
 
-(How to add a new theme)[https://gohugo.io/getting-started/quick-start/]
+[How to add a new theme](https://gohugo.io/getting-started/quick-start/)
 
 ## How to add more content
 
