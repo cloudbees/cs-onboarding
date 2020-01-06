@@ -2,6 +2,7 @@
 title: "Assisted Updates"
 date: 2019-12-18T15:26:15Z
 draft: false
+weight: 60
 menu:
   main:
     parent: CloudBees Jenkins Support

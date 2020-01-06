@@ -2,6 +2,7 @@
 title: "CloudBees Jenkins Support Offering and Scope"
 date: 2017-10-17T15:26:15Z
 draft: false
+weight: 20
 menu:
   main:
     parent: CloudBees Jenkins Support

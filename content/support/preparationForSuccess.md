@@ -2,6 +2,7 @@
 title: "Preparation for success"
 date: 2017-10-17T15:26:15Z
 draft: false
+weight: 30
 menu:
   main:
     parent: CloudBees Jenkins Support
