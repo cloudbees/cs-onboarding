@@ -1,5 +1,3 @@
-# cs-onboarding
-
 ## Getting started:
 
 
