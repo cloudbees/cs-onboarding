@@ -2,13 +2,17 @@
 
 ## Getting started with Hugo:
 
-1. ```git clone https://github.com/cloudbees/cs-onboarding.git  --recurse-submodules```
+```git clone https://github.com/cloudbees/cs-onboarding.git  --recurse-submodules```
 
+### Hugo using Homebrew:
 
-2. How to install Hugo to test locally - This is using hugo version 0.61.0:
+How to install Hugo to test locally - This is using hugo version 0.61.0:
 https://gohugo.io/getting-started/installing/#install-hugo-with-brew
 
-Want to use Docker locally 🐳 instead?
+Go inside directory and execute ```hugo -D server```
+
+
+### Want to use Docker locally 🐳 instead?
 
 ``` 
 docker run --rm -it \
@@ -17,9 +21,7 @@ docker run --rm -it \
   klakegg/hugo:0.61.0 \
   server 
 ```
-
-
-3. Go inside directory and execute ```hugo -D server```
+Go to --> localhost:1313 in your favorite browser
 
 
 ## Information about Hugo
@@ -34,13 +36,13 @@ https://gohugo.io/getting-started/quick-start/
 
 ## How to add more content
 
-1.  Take a look at cs-onboarding/content/support as an example and explore to see how to add files.The articles (.md files) follow the directory structure. The main configuration file for the page is in cs-onboarding/config.toml
+1.  Take a look at cs-onboarding/content/support or cs-onboarding/content/cloudbees-core as an example and explore to see how to add files. The articles (.md files) follow the directory structure. The main configuration file for the page is in cs-onboarding/config.toml. Follow the Getting Started directions to see how these pages get created in your local environment.
 
-2. Create a new branch.
+2. Once you have added your files, create a new branch.
 
 3. Open a PR when done.
 
------(more CI/CD stuff to come)
+-----(more CI/CD stuff to come so you can see that it not only works in your machine)
 
 
 
