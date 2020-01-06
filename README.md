@@ -1,6 +1,5 @@
 ## Getting started:
 
-
 ### Hugo using Homebrew:
 
 1. Install Hugo 0.61.0 to test locally:
@@ -16,21 +15,21 @@ Here are the official [docs](https://gohugo.io/getting-started/installing/#insta
 
 ```git clone https://github.com/cloudbees/cs-onboarding.git  --recurse-submodules```
 
-4.Once you cloned this repo and installed Hugo in your machine. Go inside the ```csa-onboarding``` directory and execute ```hugo -D server```. 
+4. Once you cloned this repo and installed Hugo in your machine. Go inside the ```csa-onboarding``` directory and execute ```hugo -D server```. 
 
-5.Go to [localhost:1313](localhost:1313) in your favorite browser and you should see the website.
+5. Go to [localhost:1313](localhost:1313) in your favorite browser and you should see the website.
 
 
 ### Want to use Hugo with Docker 🐳 instead?
 
-1.Get Docker in case you don't have it: https://docs.docker.com/docker-for-mac/install/ or run ```brew cask install docker```
+1. Get Docker in case you don't have it: https://docs.docker.com/docker-for-mac/install/ or run ```brew cask install docker```
 
-2.Clone this repo:
+2. Clone this repo:
 
 ```git clone https://github.com/cloudbees/cs-onboarding.git  --recurse-submodules```
 
 
-3.Run the following command inside the ```csa-onboarding``` directory:
+3. Run the following command inside the ```csa-onboarding``` directory:
 
 ``` 
 docker run --rm -it \
@@ -40,28 +39,28 @@ docker run --rm -it \
   server 
 ```
 
-4.Go to [localhost:1313](localhost:1313) in your favorite browser and you should see the website.
+4. Go to [localhost:1313](localhost:1313) in your favorite browser and you should see the website.
 
 
 ## Want to know more about Hugo and its themes?
 
-[Hugo Docs](https://gohugo.io/documentation/)
+* [Hugo Docs](https://gohugo.io/documentation/)
 
-We are already using [TechDoc](https://themes.gohugo.io/hugo-theme-techdoc/)
+* We are already using [TechDoc](https://themes.gohugo.io/hugo-theme-techdoc/)
 
-Other themes in case you want to change it and try a new one:
+* Other themes in case you want to change it and try a new one:
 https://themes.gohugo.io/
 
-[How to add a new theme](https://gohugo.io/getting-started/quick-start/)
+* [How to add a new theme](https://gohugo.io/getting-started/quick-start/)
 
 ## How to add more content
 
-1.Follow the "Getting Started" directions to see how these pages get created in your local environment.  
+1. Follow the "Getting Started" directions to see how these pages get created in your local environment.  
 Take a look at ```cs-onboarding/content/support``` or ```cs-onboarding/content/cloudbees-core``` as an example and explore to see how to add files. The articles (.md files) follow the directory structure in the website. The main configuration file for the page is in ```cs-onboarding/config.toml ```
 
-2.Once you have added your files, create a new branch.
+2. Once you have added your files, create a new branch.
 
-3.Open a PR when done.
+3. Open a PR when done.
 
 *** (more CI/CD stuff to come so you can see that it not only works in your machine) ***
 
