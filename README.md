@@ -56,13 +56,12 @@ https://themes.gohugo.io/
 1. Follow the "Getting Started" directions to see how these pages get created in your local environment.  
 Take a look at ```cs-onboarding/content/support``` or ```cs-onboarding/content/cloudbees-core``` directories. The articles (.md files) inside the directories follow the structure in the website. The main configuration file for the page is in ```cs-onboarding/config.toml ```. 
 
-2. [Create a branch](https://help.github.com/en/desktop/contributing-to-projects/creating-a-branch-for-your-work
-) with a name of your preference.
+2. Create a branch with a name of your preference.
 
 3. Once you are in your new branch, create a new folder under ``content`` for your new section and a or multiple new .md file(s) under such folder. You can also just add a new .md file under an existing folder if you don't want to create a new section. Finally you can also try using ```hugo new```.
 Once you have added your files and/or new folders, make sure there are no issues in your local environment by executing hugo either using Docker or your own command line and try to see your newly added page(s).
 
-4. Open a [PR](https://help.github.com/en/desktop/contributing-to-projects/creating-a-pull-request) when done against the master branch.
+4. Open a PR when done against the master branch.
 
 *** (more CI/CD stuff to come so you can see that it not only works in your machine) ***
 
