@@ -3,7 +3,7 @@
 
 ### Hugo using Homebrew:
 
-1. Install Hugo 0.61.0 to test locally:
+i. Install Hugo 0.61.0 to test locally:
 
 ```brew install https://raw.githubusercontent.com/Homebrew/homebrew-core/79894aee20a146d6cf7db7b4a362e7d491f499a1/Formula/hugo.rb```
 
