@@ -2,23 +2,37 @@
 
 ## Getting started:
 
-First clone this repo:
-
-```git clone https://github.com/cloudbees/cs-onboarding.git  --recurse-submodules```
 
 ### Hugo using Homebrew:
 
-How to install Hugo to test locally - This is using hugo version 0.61.0:
+1. Install Hugo 0.61.0 to test locally:
+
+```brew install https://raw.githubusercontent.com/Homebrew/homebrew-core/79894aee20a146d6cf7db7b4a362e7d491f499a1/Formula/hugo.rb```
+
+Here are the official docs but unfortunately Homebrew only keeps the latest version of Hugo which can bring incompatibility issues (this is when you run ```brew install hugo```):
 https://gohugo.io/getting-started/installing/#install-hugo-with-brew
 
-Once you install Hugo in your machine and cloned this repo, go inside the ```csa-onboarding``` directory and execute ```hugo -D server```. Go to localhost:1313 in your favorite browser and you should see the website.
+2. Make sure you have version 0.61.0 installed by running ```hugo version```.
+
+3. Clone this repo:
+
+```git clone https://github.com/cloudbees/cs-onboarding.git  --recurse-submodules```
+
+4. Once you cloned this repo and installed Hugo in your machine. Go inside the ```csa-onboarding``` directory and execute ```hugo -D server```. 
+
+5. Go to localhost:1313 in your favorite browser and you should see the website.
 
 
 ### Want to use Hugo with Docker 🐳 instead?
 
-First, get docker https://docs.docker.com/docker-for-mac/install/
+1. Get Docker in case you don't have it: https://docs.docker.com/docker-for-mac/install/ or run ```brew cask install docker```
 
-Clone this repo and run the following command inside the ```csa-onboarding``` directory:
+2. Clone this repo:
+
+```git clone https://github.com/cloudbees/cs-onboarding.git  --recurse-submodules```
+
+
+3. Run the following command inside the ```csa-onboarding``` directory:
 
 ``` 
 docker run --rm -it \
@@ -27,7 +41,8 @@ docker run --rm -it \
   klakegg/hugo:0.61.0 \
   server 
 ```
-Go to localhost:1313 in your favorite browser and you should see the website.
+
+4. Go to localhost:1313 in your favorite browser and you should see the website.
 
 
 ## Want to know more about Hugo and its themes?
