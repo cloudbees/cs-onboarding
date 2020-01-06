@@ -1,6 +1,6 @@
 ## Getting started:
 
-### Hugo using Homebrew:
+### a) Hugo using Homebrew:
 
 1. Install Hugo 0.61.0 to test locally:
 
@@ -20,7 +20,7 @@ Here are the official [docs](https://gohugo.io/getting-started/installing/#insta
 5. Go to [localhost:1313](localhost:1313) in your favorite browser and you should see the website.
 
 
-### Want to use Hugo with Docker 🐳 instead?
+### b) Hugo with Docker 🐳:
 
 1. Get Docker in case you don't have it: https://docs.docker.com/docker-for-mac/install/ or run ```brew cask install docker```
 
