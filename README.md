@@ -1,6 +1,8 @@
 # cs-onboarding
 
-## Getting started with Hugo:
+## Getting started:
+
+First clone the repo:
 
 ```git clone https://github.com/cloudbees/cs-onboarding.git  --recurse-submodules```
 
@@ -9,10 +11,12 @@
 How to install Hugo to test locally - This is using hugo version 0.61.0:
 https://gohugo.io/getting-started/installing/#install-hugo-with-brew
 
-Go inside directory and execute ```hugo -D server```
+Once you install Hugo in your machine and cloned the repo, go inside the csa-onboarding directory and execute ```hugo -D server```. Go to ---> localhost:1313 and you should see the website.
 
 
-### Want to use Docker locally 🐳 instead?
+### Want to use Hugo with Docker 🐳 instead?
+
+Clone the repo and run the following command inside the csa-onboarding directory:
 
 ``` 
 docker run --rm -it \
@@ -21,12 +25,14 @@ docker run --rm -it \
   klakegg/hugo:0.61.0 \
   server 
 ```
-Go to --> localhost:1313 in your favorite browser
+Go to --> localhost:1313 in your favorite browser and you should see the website.
 
 
-## Information about Hugo
+## Want to know more about Hugo and its themes?
 
-Available Themes (we are already using TechDoc -- https://themes.gohugo.io/hugo-theme-techdoc/)
+Hugo docs --> https://gohugo.io/documentation/
+
+We are already using TechDoc --> https://themes.gohugo.io/hugo-theme-techdoc/)
 
 Other themes in case you want to change it and try a new one:
 https://themes.gohugo.io/
@@ -36,7 +42,8 @@ https://gohugo.io/getting-started/quick-start/
 
 ## How to add more content
 
-1.  Take a look at cs-onboarding/content/support or cs-onboarding/content/cloudbees-core as an example and explore to see how to add files. The articles (.md files) follow the directory structure. The main configuration file for the page is in cs-onboarding/config.toml. Follow the Getting Started directions to see how these pages get created in your local environment.
+1. Follow the "Getting Started" directions to see how these pages get created in your local environment.  
+Take a look at cs-onboarding/content/support or cs-onboarding/content/cloudbees-core as an example and explore to see how to add files. The articles (.md files) follow the directory structure. The main configuration file for the page is in cs-onboarding/config.toml. 
 
 2. Once you have added your files, create a new branch.
 
