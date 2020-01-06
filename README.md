@@ -34,7 +34,7 @@ Go to localhost:1313 in your favorite browser and you should see the website.
 
 Hugo docs --> https://gohugo.io/documentation/
 
-We are already using TechDoc --> https://themes.gohugo.io/hugo-theme-techdoc/)
+We are already using TechDoc --> https://themes.gohugo.io/hugo-theme-techdoc/
 
 Other themes in case you want to change it and try a new one:
 https://themes.gohugo.io/
