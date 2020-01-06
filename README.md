@@ -17,7 +17,7 @@ Here are the official [docs](https://gohugo.io/getting-started/installing/#insta
 
 4. Once you cloned this repo and installed Hugo in your machine. Go inside the ```csa-onboarding``` directory and execute ```hugo -D server```. 
 
-5. Go to [localhost:1313](localhost:1313) in your favorite browser and you should see the website.
+5. Go to [localhost:1313](http://localhost:1313) in your favorite browser and you should see the website.
 
 
 ### b) Hugo with Docker 🐳:
@@ -39,7 +39,7 @@ docker run --rm -it \
   server 
 ```
 
-4. Go to [localhost:1313](localhost:1313) in your favorite browser and you should see the website.
+4. Go to [localhost:1313](http://localhost:1313) in your favorite browser and you should see the website.
 
 
 ## Want to know more about Hugo and its themes?
