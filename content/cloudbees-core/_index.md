@@ -19,3 +19,5 @@ What you need:
 1. License for CloudBees Operation Center
 2. Available infrastructure for CloudBees Core deployment
 3. DNS Record
+
+TEST
