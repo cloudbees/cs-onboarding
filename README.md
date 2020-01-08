@@ -63,6 +63,8 @@ Once you have added your files and/or new folders, make sure there are no issues
 
 4. Open a PR when done against the master branch.
 
+5. This is what happens next: https://github.com/kubernetes/community/blob/master/contributors/guide/owners.md#the-code-review-process
+
 *** (more CI/CD stuff to come so you can see that it not only works in your machine) ***
 
 
