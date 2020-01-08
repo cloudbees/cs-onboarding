@@ -2,14 +2,14 @@
 
 ### a) Hugo using [Homebrew](https://brew.sh/):
 
-1. Install Hugo 0.61.0 to test locally:
+1. Install Hugo 0.62.0 to test locally:
 
-```brew install https://raw.githubusercontent.com/Homebrew/homebrew-core/79894aee20a146d6cf7db7b4a362e7d491f499a1/Formula/hugo.rb```
+```https://raw.githubusercontent.com/Homebrew/homebrew-core/3248755996969c509fcdeb801f4b0c5ca459fa1a/Formula/hugo.rb```
 
 Here are the official [docs to install Hugo using Homebrew](https://gohugo.io/getting-started/installing/#install-hugo-with-brew) but unfortunately Homebrew only keeps the latest version of Hugo which can bring incompatibility issues.
 
 
-2. Make sure you have version 0.61.0 installed by running ```hugo version```.
+2. Make sure you have version 0.62.0 installed by running ```hugo version```.
 
 3. Clone this repo:
 
@@ -35,7 +35,7 @@ Here are the official [docs to install Hugo using Homebrew](https://gohugo.io/ge
 docker run --rm -it \
  -v $(pwd):/src \
   -p 1313:1313 \
-  klakegg/hugo:0.61.0 \
+  klakegg/hugo:0.62.0 \
   server 
 ```
 
