@@ -1,4 +1,4 @@
-baseURL = "http://localhost:8080"
+baseURL = "d0ck3r.com"
 languageCode = "en-us"
 title = "CloudBees Customer Success Onboarding"
 theme = "hugo-theme-techdoc"
