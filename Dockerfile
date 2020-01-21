@@ -3,8 +3,6 @@ FROM alpine:3.11 as build
 
 ENV HUGO_VERSION 0.62.0
 ENV HUGO_BINARY hugo_${HUGO_VERSION}_Linux-64bit.tar.gz
-ARG BASE_URL='http://localhost:8080/'
-
  
 # Install Hugo
 RUN set -x && \
@@ -21,7 +19,7 @@ COPY ./ /site
 
 WORKDIR /site
 
-RUN /usr/bin/hugo -D --baseURL ${BASE_URL}
+RUN /usr/bin/hugo -D --baseURL d0ck3r.com
 #RUN /usr/bin/hugo -D
 
 FROM nginx:1.17.6-alpine
